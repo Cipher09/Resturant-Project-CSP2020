@@ -1,9 +1,19 @@
+body{
+  margin:0px;
+  background-color:#d3d3d3 ;
+}
+#TopNav{
+  background-color:#fcf2d8;
+  height:15%;
+  margin:0px;
+  border:2px solid black;
 
+}
 #TopNav li{
   text-decoration: none;
   display: inline;
   float: right;
-  padding: 15px
+  padding:15px
 }
 
 #TopNav li:hover{
@@ -12,9 +22,151 @@
 #TopNav a{
   text-decoration: none;
   font-family: serif;
-  font-size: 15px;
+  font-size: 25px;
   color: black
 }
 #TopNav a:hover{
 color: white;
+}
+
+#menuNav a{
+  color: white;
+  text-decoration: none;
+
+}
+#menuNav a:hover{
+background-color: black;
+color:#fcf2d8;
+padding: 2px
+
+}
+#menuNav{
+  height: 181.5%;
+   width: 8%;
+   border-left:2px solid black;
+   border-right: 2px solid black;
+   border-bottom: 2px solid black;
+   margin: 0px;
+   text-decoration: none;
+   list-style: none;
+   float:left;
+  background-color: red;
+  font-style: italic;
+}
+
+#menuNav li{
+  list-style: none;
+  font-size: 25px;
+  font-family: cursive;
+  padding-top: 25px;
+  color: black;
+
+}
+.BurgerPic{
+  height: 200px;
+  width: 500px;
+border: 2px solid black;
+}
+#BurgersTitle{
+  font-family:  inherit;
+}
+
+#BaconCheeseburger{
+  font-family:  sans-serif;
+}
+#SunnyBurger{
+  font-family: sans-serif;
+}
+#Double-O-Nator{
+  font-family: sans-serif;
+}
+.Fries{
+  height: 200px;
+  border: 2px solid black;
+  width: 500px;
+}
+
+
+#FriesTitle{
+  font-family:  inherit;
+}
+#Fries5 li{
+  text-decoration: none;
+  list-style: none;
+}
+#Fries{
+  font-family:  sans-serif;
+
+
+}
+#SweetPotato{
+  font-family: sans-serif;
+}
+#AvacadoFires{
+  font-family: sans-serif;
+}
+  .Drinks{
+    height: 200px;
+    width: 500px;
+border: 2px solid black;
+  }
+  #DrinksTitle{
+    font-family:  inherit;
+  }
+
+  #Milkshakes{
+    font-family:  sans-serif;
+  }
+  #Drinks2{
+    font-family: sans-serif;
+  }
+  #Lemonade{
+    font-family: sans-serif;
+}
+    .Hotdogs{
+      height: 200px;
+      width: 500px;
+border: 2px solid black;
+    }
+    #HotdogTitle{
+      font-family:  inherit;
+    }
+
+    #Chilly{
+      font-family:  sans-serif;
+    }
+    #AmericanHotDog{
+      font-family: sans-serif;
+    }
+    #Chicago{
+      font-family: sans-serif;
+}
+
+
+      .Desserts{
+        height: 200px;
+        width: 300px;
+border: 2px solid black;
+      }
+      #DessertsTitle{
+        font-family:  inherit;
+      }
+
+      #Browine{
+        font-family:  sans-serif;
+      }
+      #IceCream{
+        font-family: sans-serif;
+      }
+      #Cheesecake{
+        font-family: sans-serif;
+      }
+#Resturant{height: 250px;
+  width: 400px
+border: 2px solid black;
+}
+#logo{
+  height: 250px;
+    width: 400px;
+  border: 2px solid black;
 }
